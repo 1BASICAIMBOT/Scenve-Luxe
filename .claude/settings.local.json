@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import sys,json; lines=sys.stdin.read\\(\\).strip\\(\\).split\\('\\\\n'\\); [print\\(json.loads\\(l\\).get\\('content',''\\)[:500] if isinstance\\(json.loads\\(l\\).get\\('content',''\\),str\\) else str\\(json.loads\\(l\\).get\\('content',''\\)\\)[:500]\\) for l in lines[-10:] if l.strip\\(\\)]\")",
+      "Bash(node -e ':*)",
+      "Bash(sed -i 's/class=\"product-gallery fade-in\"/class=\"product-gallery\" data-scroll=\"slide-left\"/' 'c:/Users/awasi/Desktop/Scenve Luxe/product.html')",
+      "Bash(sed -i 's/class=\"product-detail-info fade-up\"/class=\"product-detail-info\" data-scroll=\"slide-right\" data-scroll-delay=\"100\"/' 'c:/Users/awasi/Desktop/Scenve Luxe/product.html')"
+    ]
+  }
+}

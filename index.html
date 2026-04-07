@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en" class="w-mod-js">
+<head>
+<style>.wf-force-outline-none[tabindex="-1"]:focus{outline:none;}</style>
+<meta charset="utf-8">
+<title>Scenve Luxe Perfumes — Luxury Fragrances</title>
+<meta content="Discover Scenve Luxe — a curated collection of luxury perfumes crafted for those who appreciate the art of fine fragrance." name="description">
+<meta content="Scenve Luxe Perfumes — Luxury Fragrances" property="og:title">
+<meta content="Discover our curated collection of luxury fragrances." property="og:description">
+<meta property="og:type" content="website">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport">
+
+<!-- Virtus Template CSS (exact structure) -->
+<link href="https://cdn.prod.website-files.com/698aee66e6df149e48782f80/css/virtus-template.webflow.shared.4b1e8b3e1.css" rel="stylesheet" type="text/css" integrity="sha384-Sx6LPh+X2SPGq1IEcIaZzbv9NYn+S0Daa7FhI41KIhBzKiydmDO6bzj5uVZdGimH" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap">
+
+<!-- Scenve Luxe pink/white override -->
+<link rel="stylesheet" href="css/virtus-override.css">
+</head>
+<body class="body">
+
+<!-- ── Preloader ── -->
+<div class="preloader" aria-hidden="true">
+  <div class="preloader-inner">
+    <div class="preloader-wordmark">
+      <span class="preloader-name">Scenve Luxe</span>
+      <span class="preloader-sub">Perfumes</span>
+    </div>
+    <div class="preloader-ring"><svg viewBox="0 0 52 52"><circle class="preloader-ring-track" cx="26" cy="26" r="23"/><circle class="preloader-ring-fill" cx="26" cy="26" r="23"/></svg></div>
+  </div>
+</div>
+
+<div class="page-wrap">
+
+<!-- ════════════════════════════════════════
+     HEADER / NAVIGATION
+     ════════════════════════════════════════ -->
+<header class="lx-header" id="lx-header">
+  <div class="lx-nav">
+
+    <!-- LEFT GROUP -->
+    <nav class="lx-nav-group lx-nav-left">
+      <a href="shop.html" class="lx-nav-link">Shop</a>
+      <a href="collections.html" class="lx-nav-link">Collections</a>
+    </nav>
+
+    <!-- CENTER LOGO -->
+    <a href="index.html" class="lx-logo" aria-label="Scenve Luxe — Home">
+      <span class="lx-logo-main">Scenve Luxe</span>
+      <span class="lx-logo-sub">Perfumes</span>
+    </a>
+
+    <!-- RIGHT GROUP -->
+    <nav class="lx-nav-group lx-nav-right">
+      <a href="about.html" class="lx-nav-link">About</a>
+      <a href="contact.html" class="lx-nav-link">Contact</a>
+
+      <!-- Cart icon -->
+      <button class="lx-cart-btn sl-open-cart" title="View cart" aria-label="Open cart">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        <span class="lx-cart-count sl-cart-count">0</span>
+      </button>
+
+      <!-- Shop Now -->
+      <a href="shop.html" class="lx-shop-btn">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        Shop Now
+      </a>
+
+      <!-- Hamburger (mobile only) -->
+      <button class="lx-burger" id="lx-burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+
+  <!-- MOBILE DRAWER -->
+  <div class="lx-mobile-menu" id="lx-mobile-menu" aria-hidden="true">
+    <div class="lx-mobile-inner">
+      <a href="index.html" class="lx-logo lx-mobile-logo">
+        <span class="lx-logo-main">Scenve Luxe</span>
+        <span class="lx-logo-sub">Perfumes</span>
+      </a>
+      <nav class="lx-mobile-links">
+        <a href="shop.html" class="lx-mobile-link">Shop</a>
+        <a href="collections.html" class="lx-mobile-link">Collections</a>
+        <a href="about.html" class="lx-mobile-link">About</a>
+        <a href="contact.html" class="lx-mobile-link">Contact</a>
+      </nav>
+      <a href="shop.html" class="lx-shop-btn lx-mobile-cta">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        Shop the Collection
+      </a>
+    </div>
+  </div>
+</header>
+<div class="lx-overlay" id="lx-overlay" aria-hidden="true"></div>
+
+<!-- ════════════════════════════════════════
+     ANNOUNCEMENT TICKER
+     ════════════════════════════════════════ -->
+<div class="sl-ticker">
+  <div class="sl-ticker-inner">
+    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>Free Shipping Over $120</span>
+    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>Luxury Gift Packaging Included</span>
+    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>30-Day Satisfaction Guarantee</span>
+    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>100% Natural Ingredients</span>
+    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>New Collection — 2025</span>
+    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>Cruelty Free &amp; Ethically Sourced</span>
+    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>Free Shipping Over $120</span>
+    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>Luxury Gift Packaging Included</span>
+    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>30-Day Satisfaction Guarantee</span>
+    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>100% Natural Ingredients</span>
+    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>New Collection — 2025</span>
+    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>Cruelty Free &amp; Ethically Sourced</span>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     HERO SECTION  (exact Virtus structure)
+     ════════════════════════════════════════ -->
+<div class="section">
+  <div class="container wide white centered">
+    <div class="spacer _32"></div>
+
+    <!-- Display headline -->
+    <div data-scroll="clip-up" data-scroll-delay="100">
+      <div class="display-text">SCENT&nbsp;IN&nbsp;BLOOM</div>
+    </div>
+
+    <div class="spacer _32"></div>
+
+    <!-- Hero Image -->
+    <div class="hero-image-wrap" data-scroll-parallax="0.12" data-scroll-scale="0.04">
+      <!-- Perfume gradient placeholder (replace src with real image) -->
+      <div class="hero-image-placeholder" style="aspect-ratio:16/7; min-height:320px;">
+        <div class="hero-image-placeholder-inner">
+          <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="0.7">
+            <path d="M9 3h6l1 3H8L9 3z"/>
+            <path d="M7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/>
+            <circle cx="12" cy="12" r="2"/>
+          </svg>
+          <p style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;letter-spacing:0.16em;margin-top:10px;opacity:0.6;">SCENVE LUXE</p>
+        </div>
+      </div>
+
+      <div class="hero-image-dot bottom-left"></div>
+      <div class="hero-image-dot bottom-right"></div>
+      <div class="hero-image-dot top-right"></div>
+      <div class="hero-image-dot top-left"></div>
+
+      <div class="results-badge-wrap">
+        <img src="https://cdn.prod.website-files.com/698aee66e6df149e48782f80/698c485466046b1dd5c1c3c9_corner-shape.svg" loading="lazy" alt="" class="corner-shape bottom-left">
+        <img src="https://cdn.prod.website-files.com/698aee66e6df149e48782f80/698c485466046b1dd5c1c3c9_corner-shape.svg" loading="lazy" alt="" class="corner-shape bottom-right">
+        <p class="paragraph no-bottom-margin">DEFINED&nbsp;BY&nbsp;SCENT</p>
+      </div>
+    </div>
+
+    <div class="spacer _32"></div>
+
+    <!-- Stats Row -->
+    <div class="w-layout-grid _4-1-grid max-800-width" data-scroll="stagger">
+
+      <div class="result-card-wrap">
+        <h1 class="heading h1 no-bottom-margin" data-scroll-count="2400" data-scroll-count-suffix="+">2400+</h1>
+        <p class="paragraph">HAPPY&nbsp;CLIENTS</p>
+        <div class="grey-divider"></div>
+      </div>
+
+      <div class="result-card-wrap">
+        <h1 class="heading h1 no-bottom-margin" data-scroll-count="48">48</h1>
+        <p class="paragraph">SIGNATURE&nbsp;SCENTS</p>
+        <div class="grey-divider"></div>
+      </div>
+
+      <div class="result-card-wrap">
+        <h1 class="heading h1 no-bottom-margin" data-scroll-count="12">12</h1>
+        <p class="paragraph">COLLECTIONS</p>
+        <div class="grey-divider"></div>
+      </div>
+
+      <div class="result-card-wrap">
+        <h1 class="heading h1 no-bottom-margin" data-scroll-count="4.9" data-scroll-count-suffix="★" data-scroll-count-decimals="1">4.9★</h1>
+        <p class="paragraph">AVG.&nbsp;CLIENT&nbsp;REVIEW</p>
+      </div>
+
+    </div>
+
+    <div class="spacer _32"></div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     PRODUCTS SECTION  (Virtus "classes" structure)
+     ════════════════════════════════════════ -->
+<div class="section">
+  <div class="container centered">
+
+    <!-- Section label -->
+    <div data-scroll="fade-up" data-scroll-delay="0">
+      <div class="section-label-wrap" data-wf--label--variant="primary">
+        <img loading="lazy" src="https://cdn.prod.website-files.com/698aee66e6df149e48782f80/698c6f55d00bb4ebcdfa47b6_label-icon.svg" alt="" class="label-icon">
+        <p class="paragraph xsmall no-bottom-margin">FRAGRANCES</p>
+      </div>
+    </div>
+
+    <!-- Heading -->
+    <div data-scroll="clip-up" data-scroll-delay="80">
+      <h1 class="heading h2 mobile-centered">Scent styled for you</h1>
+    </div>
+
+    <div class="text-box m" data-scroll="fade-up" data-scroll-delay="160">
+      <p class="paragraph large centered">
+        Handcrafted luxury fragrances for every mood, moment, and memory — discovered one bottle at a time.
+      </p>
+    </div>
+
+    <div class="spacer _16"></div>
+
+    <!-- CTA -->
+    <div data-scroll="fade-up" data-scroll-delay="240">
+      <div class="button-wrap w-variant-36e90467-da30-59fd-1735-41281286b894">
+        <a href="shop.html" class="navigation-link no-bottom-margin w-inline-block">
+          <div class="link-text cc-1 w-variant-36e90467-da30-59fd-1735-41281286b894 cc-hidden" style="opacity:0;">VIEW ALL FRAGRANCES</div>
+          <div class="link-text cc-1 w-variant-36e90467-da30-59fd-1735-41281286b894" style="opacity:1;">VIEW ALL FRAGRANCES</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="spacer _32"></div>
+
+    <!-- Products Grid (Virtus "classes-collection" structure) -->
+    <div class="classes-collection-wrap w-dyn-list">
+      <div role="list" class="classes-collection-list w-dyn-items" data-scroll="stagger">
+
+        <!-- ── Product 1: Rose Aura ── -->
+        <div role="listitem" class="class-collection-item w-dyn-item">
+          <a href="product.html" class="default-card-wrap w-inline-block">
+            <div class="preview-image-wrap">
+              <div class="product-thumb-placeholder product-img-bg-1">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.9">
+                  <path d="M9 3h6l1 3H8L9 3z"/><path d="M7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/>
+                </svg>
+                <span>Rose Aura</span>
+              </div>
+            </div>
+            <div class="spacer _16"></div>
+            <div class="class-level-length-wrap">
+              <div class="section-label-wrap">
+                <img src="https://cdn.prod.website-files.com/698aee66e6df149e48782f80/698c6f55d00bb4ebcdfa47b6_label-icon.svg" loading="lazy" alt="" class="label-icon">
+                <p class="paragraph xsmall bold no-bottom-margin z-index-1">Floral</p>
+                <div class="label-bg essential"></div>
+              </div>
+              <div class="section-label-wrap w-variant-18f84eb6-229a-5f8c-119f-3c3aaead4385">
+                <img loading="lazy" src="https://cdn.prod.website-files.com/698aee66e6df149e48782f80/698c7b741ad7b8102296cfcd_clock.svg" alt="" class="label-icon">
+                <p class="paragraph xsmall no-bottom-margin w-variant-18f84eb6-229a-5f8c-119f-3c3aaead4385">Eau de Parfum</p>
+              </div>
+            </div>
+            <h1 class="heading h5">Rose Aura</h1>
+            <div class="text-box m">
+              <p class="paragraph">A soft luminous blend of Bulgarian rose, jasmine, and white musk. Timeless elegance in every spray.</p>
+              <div class="spacer _16"></div>
+              <p class="paragraph" style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:#1c1118;font-weight:400;">$148</p>
+              <div class="spacer _16"></div>
+            </div>
+            <div class="button-wrap dune">
+              <div class="navigation-link no-bottom-margin" onclick="slCart.add({id:'rose-aura',name:'Rose Aura',price:148,size:'50ml'});event.preventDefault();">
+                <div class="link-text cc-1 cc-hidden" style="opacity:0;">ADD TO CART</div>
+                <div class="link-text cc-1">ADD TO CART</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- ── Product 2: Velvet Oud ── -->
+        <div role="listitem" class="class-collection-item w-dyn-item">
+          <a href="product.html" class="default-card-wrap w-inline-block">
+            <div class="preview-image-wrap">
+              <div class="product-thumb-placeholder product-img-bg-2">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.9">
+                  <path d="M9 3h6l1 3H8L9 3z"/><path d="M7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/>
+                </svg>
+                <span>Velvet Oud</span>
+              </div>
+            </div>
+            <div class="spacer _16"></div>
+            <div class="class-level-length-wrap">
+              <div class="section-label-wrap">
+                <img src="https://cdn.prod.website-files.com/698aee66e6df149e48782f80/698c6f55d00bb4ebcdfa47b6_label-icon.svg" loading="lazy" alt="" class="label-icon">
+                <p class="paragraph xsmall bold no-bottom-margin z-index-1">Woody Oriental</p>
+                <div class="label-bg progression"></div>
+              </div>
+              <div class="section-label-wrap w-variant-18f84eb6-229a-5f8c-119f-3c3aaead4385">
+                <img loading="lazy" src="https://cdn.prod.website-files.com/698aee66e6df149e48782f80/698c7b741ad7b8102296cfcd_clock.svg" alt="" class="label-icon">
+                <p class="paragraph xsmall no-bottom-margin w-variant-18f84eb6-229a-5f8c-119f-3c3aaead4385">Parfum</p>
+              </div>
+            </div>
+            <h1 class="heading h5">Velvet Oud</h1>
+            <div class="text-box m">
+              <p class="paragraph">Deep, resinous Indonesian oud layered with warm amber and sandalwood. A statement of pure luxury.</p>
+              <div class="spacer _16"></div>
+              <p class="paragraph" style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:#1c1118;font-weight:400;">$195</p>
+              <div class="spacer _16"></div>
+            </div>
+            <div class="button-wrap dune">
+              <div class="navigation-link no-bottom-margin" onclick="slCart.add({id:'velvet-oud',name:'Velvet Oud',price:195,size:'50ml'});event.preventDefault();">
+                <div class="link-text cc-1 cc-hidden" style="opacity:0;">ADD TO CART</div>
+                <div class="link-text cc-1">ADD TO CART</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- ── Product 3: Aqua Silk ── -->
+        <div role="listitem" class="class-collection-item w-dyn-item">
+          <a href="product.html" class="default-card-wrap w-inline-block">
+            <div class="preview-image-wrap">
+              <div class="product-thumb-placeholder product-img-bg-3">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.9">
+                  <path d="M9 3h6l1 3H8L9 3z"/><path d="M7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/>
+                </svg>
+                <span>Aqua Silk</span>
+              </div>
+            </div>
+            <div class="spacer _16"></div>
+            <div class="class-level-length-wrap">
+              <div class="section-label-wrap">
+                <img src="https://cdn.prod.website-files.com/698aee66e6df149e48782f80/698c6f55d00bb4ebcdfa47b6_label-icon.svg" loading="lazy" alt="" class="label-icon">
+                <p class="paragraph xsmall bold no-bottom-margin z-index-1">Fresh Aquatic</p>
+                <div class="label-bg elite"></div>
+              </div>
+              <div class="section-label-wrap w-variant-18f84eb6-229a-5f8c-119f-3c3aaead4385">
+                <img loading="lazy" src="https://cdn.prod.website-files.com/698aee66e6df149e48782f80/698c7b741ad7b8102296cfcd_clock.svg" alt="" class="label-icon">
+                <p class="paragraph xsmall no-bottom-margin w-variant-18f84eb6-229a-5f8c-119f-3c3aaead4385">Eau de Toilette</p>
+              </div>
+            </div>
+            <h1 class="heading h5">Aqua Silk</h1>
+            <div class="text-box m">
+              <p class="paragraph">Crisp sea breeze and bergamot open into a drydown of cedarwood and white musk. Light, effortless, clean.</p>
+              <div class="spacer _16"></div>
+              <p class="paragraph" style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:#1c1118;font-weight:400;">$125</p>
+              <div class="spacer _16"></div>
+            </div>
+            <div class="button-wrap dune">
+              <div class="navigation-link no-bottom-margin" onclick="slCart.add({id:'aqua-silk',name:'Aqua Silk',price:125,size:'50ml'});event.preventDefault();">
+                <div class="link-text cc-1 cc-hidden" style="opacity:0;">ADD TO CART</div>
+                <div class="link-text cc-1">ADD TO CART</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     HOW IT WORKS  (Virtus "get started / steps" structure)
+     ════════════════════════════════════════ -->
+<div class="section">
+  <div class="container wide white centered">
+    <div class="spacer _64"></div>
+
+    <div class="w-layout-grid _1-2-grid _98-width">
+
+      <!-- Left column — heading & CTA -->
+      <div id="w-node-left-col" class="left-col">
+        <div data-scroll="fade-up">
+          <div class="section-label-wrap w-variant-3b972b0c-c84e-beb3-223a-cd1f0957d917">
+            <img loading="lazy" src="https://cdn.prod.website-files.com/698aee66e6df149e48782f80/698aee66e6df149e48782fa0_f3c1284088837217f2a12ebc00edb660_Logo.svg" alt="" class="label-icon w-variant-3b972b0c-c84e-beb3-223a-cd1f0957d917">
+            <p class="paragraph xsmall no-bottom-margin w-variant-3b972b0c-c84e-beb3-223a-cd1f0957d917">YOUR JOURNEY</p>
+          </div>
+        </div>
+
+        <div data-scroll="clip-up" data-scroll-delay="80">
+          <h1 class="heading h2 grey">Step into<span class="highlight-span"> your scent</span></h1>
+        </div>
+
+        <div class="text-box m" data-scroll="fade-up" data-scroll-delay="180">
+          <p class="paragraph large">
+            Finding your signature fragrance has never been easier. Three simple steps to a scent that is entirely yours.
+          </p>
+          <div class="spacer _16"></div>
+        </div>
+
+        <div class="member-button-wrap" data-scroll="fade-up" data-scroll-delay="260">
+          <div class="button-wrap w-variant-36e90467-da30-59fd-1735-41281286b894">
+            <a href="shop.html" class="navigation-link no-bottom-margin w-inline-block">
+              <div class="link-text cc-1 w-variant-36e90467-da30-59fd-1735-41281286b894 cc-hidden" style="opacity:0;">SHOP THE COLLECTION</div>
+              <div class="link-text cc-1 w-variant-36e90467-da30-59fd-1735-41281286b894" style="opacity:1;">SHOP THE COLLECTION</div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right column — step cards -->
+      <div class="right-col mobile-centered _32-padding">
+        <div class="w-layout-grid _2-2-grid full-width" data-scroll="stagger">
+
+          <!-- Step 1 -->
+          <div class="step-card-wrap">
+            <div class="step-wrap">
+              <div class="step-image-wrap">
+                <!-- Step image placeholder -->
+                <div style="width:100%;aspect-ratio:4/3;background:linear-gradient(160deg,#FAF0F3 0%,#D4849A 100%);border-radius:6px;"></div>
+                <div class="bottom-gradient"></div>
+              </div>
+              <div class="heading-wrap">
+                <div class="section-label-wrap dark">
+                  <p class="paragraph xsmall no-bottom-margin white">STEP 1</p>
+                </div>
+              </div>
+              <h1 class="heading h5 no-margin">Discover Your Scent</h1>
+              <p class="paragraph">Browse our curated collections by fragrance family, mood, or season. Read detailed scent profiles and find your perfect match.</p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card-wrap">
+            <div class="step-wrap">
+              <div class="step-image-wrap">
+                <div style="width:100%;aspect-ratio:4/3;background:linear-gradient(160deg,#F5EDE8 0%,#C4956A 100%);border-radius:6px;"></div>
+                <div class="bottom-gradient"></div>
+              </div>
+              <div class="heading-wrap">
+                <div class="section-label-wrap dark">
+                  <p class="paragraph xsmall no-bottom-margin white">STEP 2</p>
+                </div>
+              </div>
+              <h1 class="heading h5 no-margin">Order with Confidence</h1>
+              <p class="paragraph">Secure checkout, multiple payment options, and our 30-day satisfaction guarantee — no questions asked.</p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card-wrap">
+            <div class="step-wrap">
+              <div class="step-image-wrap">
+                <div style="width:100%;aspect-ratio:4/3;background:linear-gradient(160deg,#EAF5F5 0%,#6AAFB8 100%);border-radius:6px;"></div>
+                <div class="bottom-gradient"></div>
+              </div>
+              <div class="heading-wrap">
+                <div class="section-label-wrap dark">
+                  <p class="paragraph xsmall no-bottom-margin white">STEP 3</p>
+                </div>
+              </div>
+              <h1 class="heading h5 no-margin">Delivered in Luxury</h1>
+              <p class="paragraph">Your fragrance arrives in our signature gift box, ribbon-tied and ready. Free tracked shipping on orders over $120.</p>
+            </div>
+          </div>
+
+          <!-- Placeholder 4th cell -->
+          <div class="placeholder-image-wrap" style="background:linear-gradient(160deg,#F9EEF1 0%,#F0D5DC 100%);border-radius:8px;display:flex;align-items:center;justify-content:center;">
+            <div style="text-align:center;color:rgba(181,99,122,0.5);padding:32px 24px;">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8">
+                <path d="M9 3h6l1 3H8L9 3z"/><path d="M7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/>
+              </svg>
+              <p style="font-family:'Cormorant Garamond',serif;font-size:1rem;margin-top:12px;letter-spacing:0.1em;opacity:0.7;">SCENVE LUXE</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="spacer _64"></div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     BRAND STORY STRIP
+     ════════════════════════════════════════ -->
+<div class="section" style="background: linear-gradient(135deg,#1c1118 0%,#2e1a24 100%) !important; padding: 80px 0;">
+  <div class="container wide">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center;">
+
+      <div data-scroll="slide-left">
+        <div class="section-label-wrap" style="background:rgba(212,132,154,0.12)!important;border-color:rgba(212,132,154,0.3)!important;margin-bottom:24px;">
+          <img loading="lazy" src="https://cdn.prod.website-files.com/698aee66e6df149e48782f80/698c6f55d00bb4ebcdfa47b6_label-icon.svg" alt="" class="label-icon" style="filter:invert(60%) sepia(30%) saturate(800%) hue-rotate(290deg)!important;">
+          <p class="paragraph xsmall no-bottom-margin" style="color:#D4849A!important;">OUR STORY</p>
+        </div>
+        <h2 class="heading h2" style="color:#ffffff!important;margin-bottom:24px;">
+          Crafted with passion,<br><span style="font-style:italic;color:#D4849A;">worn with purpose</span>
+        </h2>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:32px;">
+          <div>
+            <div style="font-family:'Cormorant Garamond',serif;font-size:2.5rem;color:#fff;font-weight:300;line-height:1;margin-bottom:6px;">2018</div>
+            <div style="font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:rgba(255,255,255,0.35);">Year Founded</div>
+          </div>
+          <div>
+            <div style="font-family:'Cormorant Garamond',serif;font-size:2.5rem;color:#fff;font-weight:300;line-height:1;margin-bottom:6px;">48+</div>
+            <div style="font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:rgba(255,255,255,0.35);">Unique Scents</div>
+          </div>
+          <div>
+            <div style="font-family:'Cormorant Garamond',serif;font-size:2.5rem;color:#fff;font-weight:300;line-height:1;margin-bottom:6px;">100%</div>
+            <div style="font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:rgba(255,255,255,0.35);">Natural Ingredients</div>
+          </div>
+          <div>
+            <div style="font-family:'Cormorant Garamond',serif;font-size:2.5rem;color:#fff;font-weight:300;line-height:1;margin-bottom:6px;">30+</div>
+            <div style="font-size:0.65rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:rgba(255,255,255,0.35);">Countries Shipped</div>
+          </div>
+        </div>
+        <div style="margin-top:36px;">
+          <a href="about.html" class="navigation-link no-bottom-margin w-inline-block" style="border:1px solid rgba(255,255,255,0.2);padding:13px 26px;border-radius:4px;display:inline-block;">
+            <div class="link-text cc-1" style="color:#fff!important;letter-spacing:0.12em;">READ OUR STORY</div>
+          </a>
+        </div>
+      </div>
+
+      <div data-scroll="slide-right" data-scroll-delay="120">
+        <p style="font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:rgba(255,255,255,0.8);font-style:italic;line-height:1.7;margin-bottom:22px;">
+          "A fragrance is the invisible part of your personality — the one that lingers in a room long after you have left."
+        </p>
+        <p class="paragraph" style="color:rgba(255,255,255,0.45)!important;margin-bottom:18px;">
+          Founded in 2018 by master perfumer Élise Laurent, every Scenve Luxe fragrance is made in small batches using ethically sourced natural ingredients — from Bulgarian rose to Indonesian oud.
+        </p>
+        <p class="paragraph" style="color:rgba(255,255,255,0.45)!important;margin-bottom:32px;">
+          We create scents that don't just smell beautiful — they tell stories, evoke memories, and become part of who you are.
+        </p>
+        <div style="display:flex;align-items:center;gap:14px;">
+          <div style="width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,#D4849A,#8B3A52);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:#fff;">É</div>
+          <div>
+            <div style="font-size:0.85rem;font-weight:600;color:#fff;">Élise Laurent</div>
+            <div style="font-size:0.68rem;letter-spacing:0.1em;color:rgba(255,255,255,0.35);text-transform:uppercase;">Founder & Head Perfumer</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     TESTIMONIALS
+     ════════════════════════════════════════ -->
+<div class="section">
+  <div class="container centered">
+
+    <div data-scroll="fade-up">
+      <div class="section-label-wrap" data-wf--label--variant="primary">
+        <img loading="lazy" src="https://cdn.prod.website-files.com/698aee66e6df149e48782f80/698c6f55d00bb4ebcdfa47b6_label-icon.svg" alt="" class="label-icon">
+        <p class="paragraph xsmall no-bottom-margin">REVIEWS</p>
+      </div>
+    </div>
+    <div data-scroll="clip-up" data-scroll-delay="100">
+      <h1 class="heading h2 mobile-centered">What our clients say</h1>
+    </div>
+
+    <div class="spacer _32"></div>
+
+    <div class="classes-collection-wrap w-dyn-list">
+      <div role="list" class="classes-collection-list w-dyn-items" data-scroll="stagger">
+
+        <!-- Review 1 -->
+        <div role="listitem" class="class-collection-item w-dyn-item">
+          <div class="default-card-wrap w-inline-block" style="padding:32px 28px;">
+            <div style="display:flex;gap:3px;margin-bottom:18px;color:#B5637A;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;font-style:italic;color:#1c1118;line-height:1.7;margin-bottom:22px;">"Rose Aura is the most beautiful thing I've ever worn. I get compliments everywhere I go — the packaging alone is worth the price."</p>
+            <div style="display:flex;align-items:center;gap:12px;">
+              <div style="width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#FAF0F3,#D4849A);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:1rem;color:#fff;">S</div>
+              <div>
+                <div style="font-size:0.82rem;font-weight:600;color:#1c1118;">Sophia M.</div>
+                <div style="font-size:0.68rem;color:#9c8a92;">New York, USA</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div role="listitem" class="class-collection-item w-dyn-item">
+          <div class="default-card-wrap w-inline-block" style="padding:32px 28px;">
+            <div style="display:flex;gap:3px;margin-bottom:18px;color:#B5637A;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;font-style:italic;color:#1c1118;line-height:1.7;margin-bottom:22px;">"Velvet Oud is genuinely stunning — rich, deep, long-lasting. I ordered for myself and ended up buying three more as gifts."</p>
+            <div style="display:flex;align-items:center;gap:12px;">
+              <div style="width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#F5EDE8,#C4956A);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:1rem;color:#fff;">A</div>
+              <div>
+                <div style="font-size:0.82rem;font-weight:600;color:#1c1118;">Amara K.</div>
+                <div style="font-size:0.68rem;color:#9c8a92;">London, UK</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div role="listitem" class="class-collection-item w-dyn-item">
+          <div class="default-card-wrap w-inline-block" style="padding:32px 28px;">
+            <div style="display:flex;gap:3px;margin-bottom:18px;color:#B5637A;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;font-style:italic;color:#1c1118;line-height:1.7;margin-bottom:22px;">"I've tried many luxury perfume houses and Scenve Luxe stands apart. The quality is exceptional and the scents are unforgettable."</p>
+            <div style="display:flex;align-items:center;gap:12px;">
+              <div style="width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#EAF5F5,#6AAFB8);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:1rem;color:#fff;">L</div>
+              <div>
+                <div style="font-size:0.82rem;font-weight:600;color:#1c1118;">Leila R.</div>
+                <div style="font-size:0.68rem;color:#9c8a92;">Dubai, UAE</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     NEWSLETTER
+     ════════════════════════════════════════ -->
+<div class="sl-newsletter">
+  <div class="container" style="max-width:760px;margin:0 auto;">
+    <div class="sl-newsletter-inner" data-scroll="scale-in">
+      <div class="sl-newsletter-label">
+        <span class="dot"></span>Exclusive Access
+      </div>
+      <h2>Join the <em>Inner Circle</em></h2>
+      <p>Be first to discover new collections, private offers, and fragrance stories delivered to your inbox.</p>
+      <form class="sl-newsletter-form" onsubmit="slToast('Thank you for subscribing!');this.reset();return false;">
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+      <p class="sl-newsletter-note">No spam. Unsubscribe anytime.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     FOOTER
+     ════════════════════════════════════════ -->
+<footer class="sl-footer">
+  <div class="container">
+    <div class="sl-footer-grid">
+
+      <div>
+        <span class="sl-footer-logo-name">Scenve Luxe</span>
+        <span class="sl-footer-logo-sub">Perfumes</span>
+        <p class="sl-footer-desc">Luxury fragrances crafted for those who know that scent is the most intimate form of beauty.</p>
+        <div class="sl-footer-social">
+          <a href="#" class="sl-social-btn" title="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="sl-social-btn" title="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="sl-social-btn" title="Pinterest">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.65 7.86 6.39 9.29-.09-.78-.17-1.98.03-2.83.19-.77 1.27-5.38 1.27-5.38s-.32-.65-.32-1.61c0-1.51.87-2.63 1.96-2.63.93 0 1.38.7 1.38 1.53 0 .93-.59 2.33-.9 3.63-.26 1.08.53 1.96 1.59 1.96 1.9 0 3.18-2 3.18-4.9 0-2.56-1.84-4.35-4.47-4.35-3.05 0-4.83 2.28-4.83 4.64 0 .92.35 1.9.79 2.44.09.11.1.2.07.31-.08.33-.26 1.08-.3 1.23-.05.2-.17.24-.38.14-1.42-.66-2.3-2.75-2.3-4.43 0-3.6 2.62-6.91 7.55-6.91 3.97 0 7.06 2.83 7.06 6.6 0 3.94-2.48 7.1-5.93 7.1-1.16 0-2.25-.6-2.62-1.31l-.71 2.67c-.26.99-.95 2.22-1.41 2.97C12.13 22 12.07 22 12 22c-5.52 0-10-4.48-10-10S6.48 2 12 2z"/></svg>
+          </a>
+          <a href="#" class="sl-social-btn" title="TikTok">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div class="sl-footer-col-title">Shop</div>
+        <div class="sl-footer-links">
+          <a href="shop.html" class="sl-footer-link">All Fragrances</a>
+          <a href="shop.html" class="sl-footer-link">New Arrivals</a>
+          <a href="collections.html" class="sl-footer-link">Collections</a>
+          <a href="shop.html" class="sl-footer-link">Gift Sets</a>
+          <a href="shop.html" class="sl-footer-link">Sale</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="sl-footer-col-title">Company</div>
+        <div class="sl-footer-links">
+          <a href="about.html" class="sl-footer-link">Our Story</a>
+          <a href="about.html" class="sl-footer-link">The Perfumers</a>
+          <a href="contact.html" class="sl-footer-link">Contact Us</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="sl-footer-col-title">Help</div>
+        <div class="sl-footer-links">
+          <a href="#" class="sl-footer-link">Shipping Info</a>
+          <a href="#" class="sl-footer-link">Returns</a>
+          <a href="#" class="sl-footer-link">FAQ</a>
+          <a href="#" class="sl-footer-link">Track My Order</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="sl-footer-bottom">
+      <p>© 2025 Scenve Luxe Perfumes. All rights reserved.</p>
+      <div class="sl-footer-bottom-links">
+        <a href="#" class="sl-footer-bottom-link">Privacy Policy</a>
+        <a href="#" class="sl-footer-bottom-link">Terms of Service</a>
+        <a href="#" class="sl-footer-bottom-link">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div><!-- /page-wrap -->
+
+<!-- ════════════════════════════════════════
+     CART DRAWER
+     ════════════════════════════════════════ -->
+<div class="sl-cart-overlay"></div>
+<div class="sl-cart-drawer">
+  <div class="sl-cart-head">
+    <h3>Your Cart</h3>
+    <button class="sl-cart-close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div class="sl-cart-body"></div>
+  <div class="sl-cart-foot">
+    <div class="sl-cart-subtotal"><span>Subtotal</span><span class="sl-cart-subtotal-val">$0.00</span></div>
+    <div class="sl-cart-total">
+      <span class="lbl">Total</span>
+      <span class="prc sl-cart-total-val">$0.00</span>
+    </div>
+    <button class="sl-btn-checkout" onclick="slToast('Checkout coming soon!')">CHECKOUT</button>
+    <button class="sl-btn-continue sl-close-cart">CONTINUE SHOPPING</button>
+  </div>
+</div>
+
+<!-- Back to top -->
+<button class="sl-back-top" id="sl-back-top" title="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<!-- Toast container -->
+<div class="sl-toast-wrap" id="sl-toasts"></div>
+
+<!-- ════════════════════════════════════════
+     SCRIPTS
+     ════════════════════════════════════════ -->
+<script>
+/* ── Cart ── */
+const slCart = {
+  items: JSON.parse(localStorage.getItem('sl2_cart') || '[]'),
+
+  save() {
+    localStorage.setItem('sl2_cart', JSON.stringify(this.items));
+    this.updateBadge();
+    this.renderDrawer();
+  },
+
+  add(p) {
+    const ex = this.items.find(i => i.id === p.id && i.size === p.size);
+    if (ex) { ex.qty += (p.qty || 1); }
+    else     { this.items.push({...p, qty: p.qty || 1}); }
+    this.save();
+    slToast(`"${p.name}" added to cart`);
+    openCart();
+  },
+
+  remove(id, size) {
+    this.items = this.items.filter(i => !(i.id === id && i.size === size));
+    this.save();
+  },
+
+  updateQty(id, size, qty) {
+    const item = this.items.find(i => i.id === id && i.size === size);
+    if (item) { item.qty = Math.max(1, qty); this.save(); }
+  },
+
+  total() { return this.items.reduce((s,i) => s + i.price * i.qty, 0); },
+  count() { return this.items.reduce((s,i) => s + i.qty, 0); },
+
+  updateBadge() {
+    document.querySelectorAll('.sl-cart-count').forEach(el => {
+      const n = this.count();
+      el.textContent = n;
+      el.classList.toggle('show', n > 0);
+    });
+  },
+
+  renderDrawer() {
+    const body = document.querySelector('.sl-cart-body');
+    if (!body) return;
+
+    if (!this.items.length) {
+      body.innerHTML = `<div class="sl-cart-empty">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <p>Your cart is empty</p>
+        <a href="shop.html" style="font-size:0.78rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#B5637A;text-decoration:none;margin-top:4px;border-bottom:1px solid #D4849A;">SHOP NOW</a>
+      </div>`;
+    } else {
+      body.innerHTML = this.items.map(item => `
+        <div class="sl-cart-item">
+          <div class="sl-cart-item-img">
+            <div style="width:100%;height:100%;background:linear-gradient(160deg,#FAF0F3,#D4849A);border-radius:4px;"></div>
+          </div>
+          <div class="sl-cart-item-info">
+            <div class="sl-cart-item-name">${item.name}</div>
+            <div class="sl-cart-item-size">${item.size}</div>
+            <div class="sl-cart-item-price">$${(item.price * item.qty).toFixed(2)}</div>
+            <div class="sl-cart-qty">
+              <button class="sl-qty-btn" onclick="slCart.updateQty('${item.id}','${item.size}',${item.qty-1})">−</button>
+              <span class="sl-qty-val">${item.qty}</span>
+              <button class="sl-qty-btn" onclick="slCart.updateQty('${item.id}','${item.size}',${item.qty+1})">+</button>
+            </div>
+          </div>
+          <button class="sl-cart-rm" onclick="slCart.remove('${item.id}','${item.size}')">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4h6v2"/></svg>
+          </button>
+        </div>`).join('');
+    }
+
+    const t = this.total();
+    const sub = document.querySelector('.sl-cart-subtotal-val');
+    const tot = document.querySelector('.sl-cart-total-val');
+    if (sub) sub.textContent = '$' + t.toFixed(2);
+    if (tot) tot.textContent = '$' + t.toFixed(2);
+  }
+};
+
+function openCart() {
+  document.querySelector('.sl-cart-overlay').classList.add('open');
+  document.querySelector('.sl-cart-drawer').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeCart() {
+  document.querySelector('.sl-cart-overlay').classList.remove('open');
+  document.querySelector('.sl-cart-drawer').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+/* ── Toast ── */
+function slToast(msg) {
+  const wrap = document.getElementById('sl-toasts');
+  if (!wrap) return;
+  const t = document.createElement('div');
+  t.className = 'sl-toast';
+  t.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg><span>${msg}</span>`;
+  wrap.appendChild(t);
+  setTimeout(() => { t.classList.add('out'); setTimeout(() => t.remove(), 300); }, 3000);
+}
+
+/* ── Init ── */
+document.addEventListener('DOMContentLoaded', () => {
+  slCart.updateBadge();
+  slCart.renderDrawer();
+
+  /* Cart open/close */
+  document.querySelectorAll('.sl-open-cart').forEach(b => b.addEventListener('click', openCart));
+  document.querySelector('.sl-cart-overlay')?.addEventListener('click', closeCart);
+  document.querySelector('.sl-cart-close')?.addEventListener('click', closeCart);
+  document.querySelector('.sl-close-cart')?.addEventListener('click', closeCart);
+
+  /* ── lx- Burger / Mobile Drawer ── */
+  const lxBurger = document.getElementById('lx-burger');
+  const lxMobileMenu = document.getElementById('lx-mobile-menu');
+  const lxOverlay = document.getElementById('lx-overlay');
+
+  function lxOpenMenu() {
+    lxBurger?.classList.add('open');
+    lxMobileMenu?.classList.add('open');
+    lxOverlay?.classList.add('show');
+    lxBurger?.setAttribute('aria-expanded', 'true');
+    lxMobileMenu?.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+  function lxCloseMenu() {
+    lxBurger?.classList.remove('open');
+    lxMobileMenu?.classList.remove('open');
+    lxOverlay?.classList.remove('show');
+    lxBurger?.setAttribute('aria-expanded', 'false');
+    lxMobileMenu?.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  lxBurger?.addEventListener('click', () => {
+    lxBurger.classList.contains('open') ? lxCloseMenu() : lxOpenMenu();
+  });
+  lxOverlay?.addEventListener('click', lxCloseMenu);
+  lxMobileMenu?.querySelectorAll('.lx-mobile-link, .lx-shop-btn').forEach(l => l.addEventListener('click', lxCloseMenu));
+
+  /* Header scroll */
+  const header = document.getElementById('lx-header');
+  window.addEventListener('scroll', () => {
+    header?.classList.toggle('scrolled', window.scrollY > 40);
+  }, { passive: true });
+
+  /* ── Scroll Trigger — entrance animations ── */
+  const isMobile = window.innerWidth <= 768;
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const entranceObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      const el = e.target;
+      const delay = parseInt(el.dataset.scrollDelay || 0);
+      const duration = el.dataset.scrollDuration;
+      function trigger() {
+        if (duration) el.style.transitionDuration = duration + 'ms';
+        el.classList.add('visible', 'scroll-entered');
+        if (el.dataset.scroll === 'stagger' || el.classList.contains('stagger')) {
+          [...el.children].forEach((child, i) => {
+            child.style.transitionDelay = (i * 90) + 'ms';
+            child.classList.add('visible');
+          });
+        }
+      }
+      if (reducedMotion || delay === 0) trigger();
+      else setTimeout(trigger, delay);
+      entranceObs.unobserve(el);
+    });
+  }, { threshold: 0, rootMargin: isMobile ? '0px 0px -30px 0px' : '0px 0px -60px 0px' });
+
+  document.querySelectorAll('[data-scroll], [data-sl-fade], .fade-up, .fade-in, .stagger, .slide-left, .slide-right, .scale-in').forEach(el => {
+    const type = el.dataset.scroll;
+    if (type && type !== 'stagger') el.classList.add(type);
+    entranceObs.observe(el);
+  });
+
+  /* ── Scroll Trigger — counters ── */
+  const countObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      const el = e.target;
+      const target = parseFloat(el.dataset.scrollCount);
+      const suffix = el.dataset.scrollCountSuffix || '';
+      const decimals = parseInt(el.dataset.scrollCountDecimals || 0);
+      const duration = 1800;
+      const start = performance.now();
+      function step(now) {
+        const p = Math.min((now - start) / duration, 1);
+        const ease = 1 - Math.pow(1 - p, 4);
+        el.textContent = (target * ease).toFixed(decimals) + suffix;
+        if (p < 1) requestAnimationFrame(step);
+        else el.textContent = target.toFixed(decimals) + suffix;
+      }
+      requestAnimationFrame(step);
+      countObs.unobserve(el);
+    });
+  }, { threshold: 0.4 });
+
+  document.querySelectorAll('[data-scroll-count]').forEach(el => countObs.observe(el));
+
+  /* ── Scroll Trigger — scrub effects (parallax, rotate, scale, fade) ── */
+  const scrubEls = document.querySelectorAll('[data-scroll-parallax],[data-scroll-rotate],[data-scroll-scale],[data-scroll-fade-scrub]');
+  if (scrubEls.length && !reducedMotion) {
+    let ticking = false;
+    function updateScrub() {
+      const vh = window.innerHeight;
+      scrubEls.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        const progress = Math.max(0, Math.min(1, (vh - rect.top) / (vh + rect.height)));
+        const centered = (progress - 0.5) * 2;
+        const transforms = [];
+        if (el.dataset.scrollParallax) transforms.push(`translateY(${-centered * parseFloat(el.dataset.scrollParallax) * 100}px)`);
+        if (el.dataset.scrollRotate) transforms.push(`rotate(${centered * parseFloat(el.dataset.scrollRotate)}deg)`);
+        if (el.dataset.scrollScale) transforms.push(`scale(${1 + (1 - Math.abs(centered)) * parseFloat(el.dataset.scrollScale)})`);
+        if (transforms.length) el.style.transform = transforms.join(' ');
+        if (el.dataset.scrollFadeScrub !== undefined) el.style.opacity = Math.max(0, Math.min(1, progress * 2.5));
+      });
+      ticking = false;
+    }
+    window.addEventListener('scroll', () => { if (!ticking) { requestAnimationFrame(updateScrub); ticking = true; } }, { passive: true });
+    updateScrub();
+  }
+
+  /* Back to top */
+  const btt = document.getElementById('sl-back-top');
+  window.addEventListener('scroll', () => {
+    btt?.classList.toggle('show', window.scrollY > 400);
+  }, { passive: true });
+  btt?.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+  /* Prevent default on add-to-cart navigation links */
+  document.querySelectorAll('.button-wrap.dune .navigation-link').forEach(el => {
+    el.addEventListener('click', e => e.preventDefault());
+  });
+});
+</script>
+
+<!-- Preloader only — no main.js conflict -->
+<script>
+(function () {
+  var preloader = document.querySelector('.preloader');
+  if (!preloader) return;
+  var ring = preloader.querySelector('.preloader-ring-fill');
+  var circumference = 145;
+  var pct = 0, done = false;
+  function setRing(p) {
+    if (!ring) return;
+    ring.style.strokeDashoffset = circumference - (p / 100) * circumference;
+  }
+  function finish() {
+    if (done) return; done = true;
+    setRing(100);
+    document.body.style.overflow = '';
+    setTimeout(function () {
+      preloader.classList.add('is-leaving');
+      setTimeout(function () { preloader.style.display = 'none'; }, 1700);
+    }, 500);
+  }
+  var iv = setInterval(function () {
+    pct += Math.random() * 5 + 2;
+    if (pct >= 88) { pct = 88; clearInterval(iv); }
+    setRing(pct);
+  }, 120);
+  if (document.readyState === 'complete') {
+    clearInterval(iv); finish();
+  } else {
+    window.addEventListener('load', function () { clearInterval(iv); finish(); });
+    setTimeout(function () { clearInterval(iv); finish(); }, 2800);
+  }
+}());
+</script>
+
+</body>
+</html>

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Shop — Scenve Luxe Perfumes</title>
+  <meta name="description" content="Browse our full collection of luxury fragrances. Find your signature scent.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/virtus-override.css">
+</head>
+<body>
+
+<!-- ── Preloader ── -->
+<div class="preloader" aria-hidden="true">
+  <div class="preloader-inner">
+    <div class="preloader-wordmark">
+      <span class="preloader-name">Scenve Luxe</span>
+      <span class="preloader-sub">Perfumes</span>
+    </div>
+    <div class="preloader-ring"><svg viewBox="0 0 52 52"><circle class="preloader-ring-track" cx="26" cy="26" r="23"/><circle class="preloader-ring-fill" cx="26" cy="26" r="23"/></svg></div>
+  </div>
+</div>
+
+<!-- ── Navigation ── -->
+<header class="lx-header" id="lx-header">
+  <div class="lx-nav">
+    <nav class="lx-nav-group lx-nav-left">
+      <a href="shop.html" class="lx-nav-link active">Shop</a>
+      <a href="collections.html" class="lx-nav-link">Collections</a>
+    </nav>
+    <a href="index.html" class="lx-logo" aria-label="Scenve Luxe — Home">
+      <span class="lx-logo-main">Scenve Luxe</span>
+      <span class="lx-logo-sub">Perfumes</span>
+    </a>
+    <nav class="lx-nav-group lx-nav-right">
+      <a href="about.html" class="lx-nav-link">About</a>
+      <a href="contact.html" class="lx-nav-link">Contact</a>
+      <button class="lx-cart-btn open-cart lx-open-cart" title="View cart" aria-label="Open cart">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        <span class="lx-cart-count cart-count">0</span>
+      </button>
+      <a href="shop.html" class="lx-shop-btn">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        Shop Now
+      </a>
+      <button class="lx-burger" id="lx-burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+  <div class="lx-mobile-menu" id="lx-mobile-menu" aria-hidden="true">
+    <div class="lx-mobile-inner">
+      <a href="index.html" class="lx-logo lx-mobile-logo">
+        <span class="lx-logo-main">Scenve Luxe</span>
+        <span class="lx-logo-sub">Perfumes</span>
+      </a>
+      <nav class="lx-mobile-links">
+        <a href="shop.html" class="lx-mobile-link">Shop</a>
+        <a href="collections.html" class="lx-mobile-link">Collections</a>
+        <a href="about.html" class="lx-mobile-link">About</a>
+        <a href="contact.html" class="lx-mobile-link">Contact</a>
+      </nav>
+      <a href="shop.html" class="lx-shop-btn lx-mobile-cta">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        Shop the Collection
+      </a>
+    </div>
+  </div>
+</header>
+<div class="lx-overlay" id="lx-overlay" aria-hidden="true"></div>
+
+<!-- ── Page Hero ── -->
+<section class="page-hero">
+  <div class="container">
+    <div data-scroll="fade-up" data-scroll-delay="80">
+      <div class="badge" style="margin-bottom: 20px;"><span class="dot"></span>All Fragrances</div>
+    </div>
+    <div data-scroll="clip-up" data-scroll-delay="180">
+      <h1 class="h1" style="margin-bottom: 12px;">The Collection</h1>
+    </div>
+    <div data-scroll="fade-up" data-scroll-delay="300">
+      <p class="paragraph large">Discover 48 signature scents for every mood, moment, and personality.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── Shop Layout ── -->
+<section class="section" style="padding-top: 48px;">
+  <div class="container">
+    <div class="shop-layout">
+
+      <!-- Filters -->
+      <aside class="filter-sidebar" data-scroll="slide-left">
+        <div class="filter-group">
+          <div class="filter-title">Category</div>
+          <label class="filter-option">
+            <input type="checkbox" value="floral"> <label>Floral</label>
+          </label>
+          <label class="filter-option">
+            <input type="checkbox" value="woody"> <label>Woody & Oriental</label>
+          </label>
+          <label class="filter-option">
+            <input type="checkbox" value="fresh"> <label>Fresh & Aquatic</label>
+          </label>
+          <label class="filter-option">
+            <input type="checkbox" value="gourmand"> <label>Gourmand</label>
+          </label>
+          <label class="filter-option">
+            <input type="checkbox" value="citrus"> <label>Citrus</label>
+          </label>
+          <label class="filter-option">
+            <input type="checkbox" value="musk"> <label>Musk & Powdery</label>
+          </label>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-title">For</div>
+          <label class="filter-option">
+            <input type="checkbox" value="her"> <label>Her</label>
+          </label>
+          <label class="filter-option">
+            <input type="checkbox" value="him"> <label>Him</label>
+          </label>
+          <label class="filter-option">
+            <input type="checkbox" value="unisex"> <label>Unisex</label>
+          </label>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-title">Intensity</div>
+          <label class="filter-option">
+            <input type="checkbox" value="light"> <label>Light (Eau de Cologne)</label>
+          </label>
+          <label class="filter-option">
+            <input type="checkbox" value="medium"> <label>Medium (Eau de Toilette)</label>
+          </label>
+          <label class="filter-option">
+            <input type="checkbox" value="strong"> <label>Strong (Eau de Parfum)</label>
+          </label>
+          <label class="filter-option">
+            <input type="checkbox" value="intense"> <label>Intense (Parfum)</label>
+          </label>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-title">Price Range</div>
+          <label class="filter-option">
+            <input type="checkbox"> <label>Under $100</label>
+          </label>
+          <label class="filter-option">
+            <input type="checkbox"> <label>$100 – $150</label>
+          </label>
+          <label class="filter-option">
+            <input type="checkbox"> <label>$150 – $200</label>
+          </label>
+          <label class="filter-option">
+            <input type="checkbox"> <label>Over $200</label>
+          </label>
+        </div>
+      </aside>
+
+      <!-- Products -->
+      <div>
+        <div class="shop-toolbar">
+          <span class="shop-count">Showing 12 fragrances</span>
+          <select class="sort-select">
+            <option>Sort: Featured</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+            <option>Newest First</option>
+            <option>Best Rated</option>
+          </select>
+        </div>
+
+        <div class="grid-3" id="product-grid" data-scroll="stagger">
+
+          <!-- Product 1 -->
+          <div class="product-card" data-category="floral">
+            <div class="product-image-wrap">
+              <div class="product-img-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
+                <span>Rose Aura</span>
+              </div>
+              <span class="product-tag new">New</span>
+              <button class="product-wishlist" data-wishlist="rose-aura">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'rose-aura',name:'Rose Aura',price:148,size:'50ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Floral</div>
+              <a href="product.html" class="product-name">Rose Aura</a>
+              <div class="product-notes">Rose · Jasmine · White Musk</div>
+              <div class="product-price-row"><span class="product-price">$148</span></div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="product-card" data-category="woody">
+            <div class="product-image-wrap">
+              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #F5EDE8 0%, #C4956A 100%);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
+                <span>Velvet Oud</span>
+              </div>
+              <span class="product-tag limited">Limited</span>
+              <button class="product-wishlist" data-wishlist="velvet-oud">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'velvet-oud',name:'Velvet Oud',price:195,size:'50ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Woody Oriental</div>
+              <a href="product.html" class="product-name">Velvet Oud</a>
+              <div class="product-notes">Oud · Amber · Sandalwood</div>
+              <div class="product-price-row"><span class="product-price">$195</span></div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="product-card" data-category="fresh">
+            <div class="product-image-wrap">
+              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #EAF5F5 0%, #6AAFB8 100%);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
+                <span>Aqua Silk</span>
+              </div>
+              <button class="product-wishlist" data-wishlist="aqua-silk">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'aqua-silk',name:'Aqua Silk',price:125,size:'50ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Fresh Aquatic</div>
+              <a href="product.html" class="product-name">Aqua Silk</a>
+              <div class="product-notes">Sea Breeze · Bergamot · Cedarwood</div>
+              <div class="product-price-row"><span class="product-price">$125</span></div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="product-card" data-category="floral">
+            <div class="product-image-wrap">
+              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #F9F0F8 0%, #A87BBF 100%);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
+                <span>Iris Noir</span>
+              </div>
+              <span class="product-tag sale">Sale</span>
+              <button class="product-wishlist" data-wishlist="iris-noir">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'iris-noir',name:'Iris Noir',price:110,size:'50ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Floral Gourmand</div>
+              <a href="product.html" class="product-name">Iris Noir</a>
+              <div class="product-notes">Iris · Tonka Bean · Vanilla</div>
+              <div class="product-price-row"><span class="product-price">$110</span><span class="product-price-old">$138</span></div>
+            </div>
+          </div>
+
+          <!-- Product 5 -->
+          <div class="product-card" data-category="citrus">
+            <div class="product-image-wrap">
+              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #FEFAE8 0%, #D4A930 100%);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
+                <span>Citrus Bloom</span>
+              </div>
+              <span class="product-tag new">New</span>
+              <button class="product-wishlist" data-wishlist="citrus-bloom">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'citrus-bloom',name:'Citrus Bloom',price:98,size:'50ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Citrus Fresh</div>
+              <a href="product.html" class="product-name">Citrus Bloom</a>
+              <div class="product-notes">Sicilian Lemon · Neroli · Vetiver</div>
+              <div class="product-price-row"><span class="product-price">$98</span></div>
+            </div>
+          </div>
+
+          <!-- Product 6 -->
+          <div class="product-card" data-category="musk">
+            <div class="product-image-wrap">
+              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #F8F5F0 0%, #9E8870 100%);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
+                <span>Nude Musk</span>
+              </div>
+              <button class="product-wishlist" data-wishlist="nude-musk">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'nude-musk',name:'Nude Musk',price:115,size:'50ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Musk & Powdery</div>
+              <a href="product.html" class="product-name">Nude Musk</a>
+              <div class="product-notes">White Musk · Cashmere · Sandalwood</div>
+              <div class="product-price-row"><span class="product-price">$115</span></div>
+            </div>
+          </div>
+
+          <!-- Product 7 -->
+          <div class="product-card" data-category="woody">
+            <div class="product-image-wrap">
+              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #EDF5EE 0%, #4A8B5C 100%);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
+                <span>Cedre Noir</span>
+              </div>
+              <button class="product-wishlist" data-wishlist="cedre-noir">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'cedre-noir',name:'Cèdre Noir',price:165,size:'50ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Woody</div>
+              <a href="product.html" class="product-name">Cèdre Noir</a>
+              <div class="product-notes">Cedarwood · Vetiver · Dark Amber</div>
+              <div class="product-price-row"><span class="product-price">$165</span></div>
+            </div>
+          </div>
+
+          <!-- Product 8 -->
+          <div class="product-card" data-category="floral">
+            <div class="product-image-wrap">
+              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #FFF8F0 0%, #E89B70 100%);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
+                <span>Soleil d'Or</span>
+              </div>
+              <span class="product-tag new">New</span>
+              <button class="product-wishlist" data-wishlist="soleil-dor">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'soleil-dor',name:'Soleil d\'Or',price:175,size:'50ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Floral Oriental</div>
+              <a href="product.html" class="product-name">Soleil d'Or</a>
+              <div class="product-notes">Ylang-Ylang · Tuberose · Benzoin</div>
+              <div class="product-price-row"><span class="product-price">$175</span></div>
+            </div>
+          </div>
+
+          <!-- Product 9 -->
+          <div class="product-card" data-category="gourmand">
+            <div class="product-image-wrap">
+              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #F5EEF8 0%, #8E5AA0 100%);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
+                <span>Noir Gourmand</span>
+              </div>
+              <button class="product-wishlist" data-wishlist="noir-gourmand">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'noir-gourmand',name:'Noir Gourmand',price:132,size:'50ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Gourmand</div>
+              <a href="product.html" class="product-name">Noir Gourmand</a>
+              <div class="product-notes">Dark Chocolate · Praline · Patchouli</div>
+              <div class="product-price-row"><span class="product-price">$132</span></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Load More -->
+        <div class="spacer-48"></div>
+        <div class="flex-center">
+          <button class="btn btn-outline" onclick="showToast('Loading more fragrances...')">Load More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Cart Drawer ── -->
+<div class="cart-overlay"></div>
+<div class="cart-drawer">
+  <div class="cart-header">
+    <h2 class="cart-title">Your Cart</h2>
+    <button class="cart-close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div class="cart-body"></div>
+  <div class="cart-footer">
+    <div class="cart-subtotal"><span>Subtotal</span><span class="price-text">$0.00</span></div>
+    <div class="cart-total"><span class="label-text">Total</span><span class="price-text">$0.00</span></div>
+    <a href="#" class="btn btn-primary" style="width: 100%; justify-content: center; margin-bottom: 10px;" onclick="showToast('Checkout coming soon!')">Checkout</a>
+    <button class="btn btn-outline" style="width: 100%; justify-content: center;" onclick="document.querySelector('.cart-overlay').classList.remove('open'); document.querySelector('.cart-drawer').classList.remove('open'); document.body.style.overflow='';">Continue Shopping</button>
+  </div>
+</div>
+
+<!-- ── Footer ── -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-name">Scenve Luxe</span>
+        <span class="logo-sub" style="display: block; margin-bottom: 16px;">Perfumes</span>
+        <p class="footer-desc">Luxury fragrances crafted for those who understand that scent is the most intimate form of beauty.</p>
+        <div class="footer-social">
+          <a href="#" class="social-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" class="social-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Shop</div>
+        <div class="footer-links">
+          <a href="shop.html" class="footer-link">All Fragrances</a>
+          <a href="shop.html" class="footer-link">New Arrivals</a>
+          <a href="collections.html" class="footer-link">Collections</a>
+          <a href="shop.html" class="footer-link">Gift Sets</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Company</div>
+        <div class="footer-links">
+          <a href="about.html" class="footer-link">Our Story</a>
+          <a href="contact.html" class="footer-link">Contact</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Help</div>
+        <div class="footer-links">
+          <a href="#" class="footer-link">Shipping Info</a>
+          <a href="#" class="footer-link">Returns</a>
+          <a href="#" class="footer-link">FAQ</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p style="font-size: 0.78rem; color: rgba(255,255,255,0.3);">© 2025 Scenve Luxe Perfumes. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#" class="footer-bottom-link">Privacy Policy</a>
+        <a href="#" class="footer-bottom-link">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg></button>
+
+<script src="js/main.js"></script>
+</body>
+</html>

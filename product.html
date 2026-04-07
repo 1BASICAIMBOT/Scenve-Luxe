@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Rose Aura — Scenve Luxe Perfumes</title>
+  <meta name="description" content="Rose Aura — A timeless floral fragrance of Bulgarian rose, jasmine, and white musk.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/virtus-override.css">
+</head>
+<body>
+
+<!-- ── Preloader ── -->
+<div class="preloader" aria-hidden="true">
+  <div class="preloader-inner">
+    <div class="preloader-wordmark">
+      <span class="preloader-name">Scenve Luxe</span>
+      <span class="preloader-sub">Perfumes</span>
+    </div>
+    <div class="preloader-ring"><svg viewBox="0 0 52 52"><circle class="preloader-ring-track" cx="26" cy="26" r="23"/><circle class="preloader-ring-fill" cx="26" cy="26" r="23"/></svg></div>
+  </div>
+</div>
+
+<!-- ── Navigation ── -->
+<header class="lx-header" id="lx-header">
+  <div class="lx-nav">
+    <nav class="lx-nav-group lx-nav-left">
+      <a href="shop.html" class="lx-nav-link active">Shop</a>
+      <a href="collections.html" class="lx-nav-link">Collections</a>
+    </nav>
+    <a href="index.html" class="lx-logo" aria-label="Scenve Luxe — Home">
+      <span class="lx-logo-main">Scenve Luxe</span>
+      <span class="lx-logo-sub">Perfumes</span>
+    </a>
+    <nav class="lx-nav-group lx-nav-right">
+      <a href="about.html" class="lx-nav-link">About</a>
+      <a href="contact.html" class="lx-nav-link">Contact</a>
+      <button class="lx-cart-btn open-cart lx-open-cart" title="View cart" aria-label="Open cart">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        <span class="lx-cart-count cart-count">0</span>
+      </button>
+      <a href="shop.html" class="lx-shop-btn">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        Shop Now
+      </a>
+      <button class="lx-burger" id="lx-burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+  <div class="lx-mobile-menu" id="lx-mobile-menu" aria-hidden="true">
+    <div class="lx-mobile-inner">
+      <a href="index.html" class="lx-logo lx-mobile-logo">
+        <span class="lx-logo-main">Scenve Luxe</span>
+        <span class="lx-logo-sub">Perfumes</span>
+      </a>
+      <nav class="lx-mobile-links">
+        <a href="shop.html" class="lx-mobile-link">Shop</a>
+        <a href="collections.html" class="lx-mobile-link">Collections</a>
+        <a href="about.html" class="lx-mobile-link">About</a>
+        <a href="contact.html" class="lx-mobile-link">Contact</a>
+      </nav>
+      <a href="shop.html" class="lx-shop-btn lx-mobile-cta">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        Shop the Collection
+      </a>
+    </div>
+  </div>
+</header>
+<div class="lx-overlay" id="lx-overlay" aria-hidden="true"></div>
+
+<!-- ── Breadcrumb ── -->
+<div style="background: var(--blush-light); border-bottom: 1px solid var(--blush); padding: 80px 0 16px;">
+  <div class="container">
+    <div style="display: flex; align-items: center; gap: 8px; font-size: 0.75rem; color: var(--text-light);">
+      <a href="index.html" style="color: var(--text-light); transition: color 0.3s;" onmouseover="this.style.color='var(--pink-dark)'" onmouseout="this.style.color='var(--text-light)'">Home</a>
+      <span>/</span>
+      <a href="shop.html" style="color: var(--text-light); transition: color 0.3s;" onmouseover="this.style.color='var(--pink-dark)'" onmouseout="this.style.color='var(--text-light)'">Shop</a>
+      <span>/</span>
+      <span style="color: var(--text-dark);">Rose Aura</span>
+    </div>
+  </div>
+</div>
+
+<!-- ── Product Detail ── -->
+<section style="padding-bottom: 100px; background: var(--white);">
+  <div class="container">
+    <div class="product-detail-grid">
+
+      <!-- Gallery -->
+      <div class="product-gallery" data-scroll="slide-left">
+        <div class="product-gallery-main">
+          <div class="gallery-main-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8">
+              <path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/>
+              <circle cx="12" cy="12" r="2"/>
+            </svg>
+          </div>
+        </div>
+        <div class="product-gallery-thumbs">
+          <div class="thumb active"><div class="thumb-placeholder" style="background: linear-gradient(160deg, #FAF0F3, #EDD5DC);"></div></div>
+          <div class="thumb"><div class="thumb-placeholder" style="background: linear-gradient(160deg, #F5E8EC, #D4849A);"></div></div>
+          <div class="thumb"><div class="thumb-placeholder" style="background: linear-gradient(160deg, #EDD5DC, #B5637A);"></div></div>
+          <div class="thumb"><div class="thumb-placeholder" style="background: linear-gradient(160deg, #F9EEF1, #C9A0AE);"></div></div>
+        </div>
+      </div>
+
+      <!-- Info -->
+      <div class="product-detail-info" data-scroll="slide-right" data-scroll-delay="100">
+        <div class="product-detail-category">Floral · Eau de Parfum</div>
+        <h1 class="product-detail-name">Rose Aura</h1>
+        <p class="product-detail-sub">The Garden at Dawn</p>
+
+        <div class="product-rating">
+          <div class="stars">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <span class="rating-count">4.9 (247 reviews)</span>
+        </div>
+
+        <div class="product-detail-price">$148</div>
+
+        <p class="paragraph" style="margin-bottom: 0;">
+          A soft, luminous opening of Bulgarian rose unfolds into a heart of jasmine and peony, before settling into a warm base of white musk and sandalwood. Rose Aura is a fragrance for the woman who radiates quiet elegance.
+        </p>
+
+        <div class="product-divider"></div>
+
+        <!-- Scent Notes -->
+        <div>
+          <div class="notes-label">Top Notes</div>
+          <div class="notes-row">
+            <span class="note-tag">Bulgarian Rose</span>
+            <span class="note-tag">Peony</span>
+            <span class="note-tag">Bergamot</span>
+          </div>
+          <div class="notes-label">Heart Notes</div>
+          <div class="notes-row">
+            <span class="note-tag">Jasmine Sambac</span>
+            <span class="note-tag">Magnolia</span>
+            <span class="note-tag">Iris</span>
+          </div>
+          <div class="notes-label">Base Notes</div>
+          <div class="notes-row">
+            <span class="note-tag">White Musk</span>
+            <span class="note-tag">Sandalwood</span>
+            <span class="note-tag">Ambrette</span>
+          </div>
+        </div>
+
+        <div class="product-divider"></div>
+
+        <!-- Size Selector -->
+        <div class="size-selector">
+          <div class="size-label">Size</div>
+          <div class="size-options">
+            <button class="size-btn">30ml</button>
+            <button class="size-btn active">50ml</button>
+            <button class="size-btn">100ml</button>
+          </div>
+        </div>
+
+        <!-- Qty & Add to Cart -->
+        <div class="add-to-cart-row">
+          <div class="qty-control">
+            <button class="qty-btn" data-action="minus">−</button>
+            <input type="number" class="qty-input" value="1" min="1" max="10">
+            <button class="qty-btn" data-action="plus">+</button>
+          </div>
+          <button class="btn btn-primary" style="flex: 1; justify-content: center;"
+            onclick="addToCart({id:'rose-aura',name:'Rose Aura',price:148})">
+            Add to Cart
+          </button>
+          <button class="btn-icon btn" data-wishlist="rose-aura" title="Add to wishlist">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </button>
+        </div>
+
+        <div class="product-divider"></div>
+
+        <!-- Product Meta -->
+        <div class="product-meta">
+          <div class="meta-row"><span class="meta-key">Type</span><span class="meta-val">Eau de Parfum</span></div>
+          <div class="meta-row"><span class="meta-key">Longevity</span><span class="meta-val">8–10 hours</span></div>
+          <div class="meta-row"><span class="meta-key">Sillage</span><span class="meta-val">Moderate</span></div>
+          <div class="meta-row"><span class="meta-key">For</span><span class="meta-val">Her / Unisex</span></div>
+          <div class="meta-row"><span class="meta-key">Season</span><span class="meta-val">Spring · Summer · All Year</span></div>
+          <div class="meta-row"><span class="meta-key">Shipping</span><span class="meta-val">Free over $120 · Ships in 1–3 days</span></div>
+        </div>
+
+        <!-- Delivery Info -->
+        <div style="margin-top: 28px; display: flex; flex-direction: column; gap: 12px;">
+          <div style="display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: var(--text-mid);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--pink-dark)" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            Free tracked shipping on orders over $120
+          </div>
+          <div style="display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: var(--text-mid);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--pink-dark)" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            30-day satisfaction guarantee
+          </div>
+          <div style="display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: var(--text-mid);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--pink-dark)" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            Secure payment · SSL encrypted
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── You May Also Like ── -->
+<section class="section" style="background: var(--blush-light);">
+  <div class="container">
+    <div class="section-header centered" data-scroll="fade-up">
+      <div class="section-header-inner">
+        <h2 class="h3">You May Also Like</h2>
+      </div>
+    </div>
+
+    <div class="grid-4" data-scroll="stagger">
+      <div class="product-card">
+        <div class="product-image-wrap">
+          <div class="product-img-placeholder" style="background: linear-gradient(160deg, #F9F0F8 0%, #A87BBF 100%);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
+            <span>Iris Noir</span>
+          </div>
+          <div class="product-actions">
+            <button class="btn btn-primary" onclick="cart.add({id:'iris-noir',name:'Iris Noir',price:110,size:'50ml'})">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Floral Gourmand</div>
+          <a href="product.html" class="product-name">Iris Noir</a>
+          <div class="product-price-row"><span class="product-price">$110</span></div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-wrap">
+          <div class="product-img-placeholder" style="background: linear-gradient(160deg, #F8F5F0 0%, #9E8870 100%);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
+            <span>Nude Musk</span>
+          </div>
+          <div class="product-actions">
+            <button class="btn btn-primary" onclick="cart.add({id:'nude-musk',name:'Nude Musk',price:115,size:'50ml'})">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Musk & Powdery</div>
+          <a href="product.html" class="product-name">Nude Musk</a>
+          <div class="product-price-row"><span class="product-price">$115</span></div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-wrap">
+          <div class="product-img-placeholder" style="background: linear-gradient(160deg, #FFF8F0 0%, #E89B70 100%);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
+            <span>Soleil d'Or</span>
+          </div>
+          <div class="product-actions">
+            <button class="btn btn-primary" onclick="cart.add({id:'soleil-dor',name:'Soleil d\'Or',price:175,size:'50ml'})">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Floral Oriental</div>
+          <a href="product.html" class="product-name">Soleil d'Or</a>
+          <div class="product-price-row"><span class="product-price">$175</span></div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-wrap">
+          <div class="product-img-placeholder" style="background: linear-gradient(160deg, #EAF5F5 0%, #6AAFB8 100%);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
+            <span>Aqua Silk</span>
+          </div>
+          <div class="product-actions">
+            <button class="btn btn-primary" onclick="cart.add({id:'aqua-silk',name:'Aqua Silk',price:125,size:'50ml'})">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Fresh Aquatic</div>
+          <a href="product.html" class="product-name">Aqua Silk</a>
+          <div class="product-price-row"><span class="product-price">$125</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Cart Drawer ── -->
+<div class="cart-overlay"></div>
+<div class="cart-drawer">
+  <div class="cart-header">
+    <h2 class="cart-title">Your Cart</h2>
+    <button class="cart-close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+  </div>
+  <div class="cart-body"></div>
+  <div class="cart-footer">
+    <div class="cart-subtotal"><span>Subtotal</span><span class="price-text">$0.00</span></div>
+    <div class="cart-total"><span class="label-text">Total</span><span class="price-text">$0.00</span></div>
+    <a href="#" class="btn btn-primary" style="width: 100%; justify-content: center; margin-bottom: 10px;" onclick="showToast('Checkout coming soon!')">Checkout</a>
+    <button class="btn btn-outline" style="width: 100%; justify-content: center;" onclick="document.querySelector('.cart-overlay').classList.remove('open'); document.querySelector('.cart-drawer').classList.remove('open'); document.body.style.overflow='';">Continue Shopping</button>
+  </div>
+</div>
+
+<!-- ── Footer ── -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-name">Scenve Luxe</span>
+        <span class="logo-sub" style="display:block;margin-bottom:16px;">Perfumes</span>
+        <p class="footer-desc">Luxury fragrances crafted for those who understand that scent is the most intimate form of beauty.</p>
+      </div>
+      <div><div class="footer-col-title">Shop</div><div class="footer-links"><a href="shop.html" class="footer-link">All Fragrances</a><a href="shop.html" class="footer-link">New Arrivals</a></div></div>
+      <div><div class="footer-col-title">Company</div><div class="footer-links"><a href="about.html" class="footer-link">Our Story</a><a href="contact.html" class="footer-link">Contact</a></div></div>
+      <div><div class="footer-col-title">Help</div><div class="footer-links"><a href="#" class="footer-link">Shipping</a><a href="#" class="footer-link">Returns</a></div></div>
+    </div>
+    <div class="footer-bottom">
+      <p style="font-size:0.78rem;color:rgba(255,255,255,0.3);">© 2025 Scenve Luxe Perfumes. All rights reserved.</p>
+      <div class="footer-bottom-links"><a href="#" class="footer-bottom-link">Privacy Policy</a><a href="#" class="footer-bottom-link">Terms</a></div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg></button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
