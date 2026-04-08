@@ -117,13 +117,13 @@
      ════════════════════════════════════════ -->
 <div class="sl-ticker">
   <div class="sl-ticker-inner">
-    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>Free Shipping Over $120</span>
+    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>Free Shipping Over D120</span>
     <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>Luxury Gift Packaging Included</span>
     <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>30-Day Satisfaction Guarantee</span>
     <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>100% Natural Ingredients</span>
     <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>New Collection — 2025</span>
     <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>Cruelty Free &amp; Ethically Sourced</span>
-    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>Free Shipping Over $120</span>
+    <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>Free Shipping Over D120</span>
     <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>Luxury Gift Packaging Included</span>
     <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>30-Day Satisfaction Guarantee</span>
     <span class="sl-ticker-item"><span class="sl-ticker-dot"></span>100% Natural Ingredients</span>
@@ -276,7 +276,7 @@
             <div class="text-box m">
               <p class="paragraph">A soft luminous blend of Bulgarian rose, jasmine, and white musk. Timeless elegance in every spray.</p>
               <div class="spacer _16"></div>
-              <p class="paragraph" style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:#1c1118;font-weight:400;">$148</p>
+              <p class="paragraph" style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:#1c1118;font-weight:400;">D148</p>
               <div class="spacer _16"></div>
             </div>
             <div class="button-wrap dune">
@@ -315,7 +315,7 @@
             <div class="text-box m">
               <p class="paragraph">Deep, resinous Indonesian oud layered with warm amber and sandalwood. A statement of pure luxury.</p>
               <div class="spacer _16"></div>
-              <p class="paragraph" style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:#1c1118;font-weight:400;">$195</p>
+              <p class="paragraph" style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:#1c1118;font-weight:400;">D195</p>
               <div class="spacer _16"></div>
             </div>
             <div class="button-wrap dune">
@@ -354,7 +354,7 @@
             <div class="text-box m">
               <p class="paragraph">Crisp sea breeze and bergamot open into a drydown of cedarwood and white musk. Light, effortless, clean.</p>
               <div class="spacer _16"></div>
-              <p class="paragraph" style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:#1c1118;font-weight:400;">$125</p>
+              <p class="paragraph" style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:#1c1118;font-weight:400;">D125</p>
               <div class="spacer _16"></div>
             </div>
             <div class="button-wrap dune">
@@ -463,7 +463,7 @@
                 </div>
               </div>
               <h1 class="heading h5 no-margin">Delivered in Luxury</h1>
-              <p class="paragraph">Your fragrance arrives in our signature gift box, ribbon-tied and ready. Free tracked shipping on orders over $120.</p>
+              <p class="paragraph">Your fragrance arrives in our signature gift box, ribbon-tied and ready. Free tracked shipping on orders over D120.</p>
             </div>
           </div>
 
@@ -744,10 +744,10 @@
   </div>
   <div class="sl-cart-body"></div>
   <div class="sl-cart-foot">
-    <div class="sl-cart-subtotal"><span>Subtotal</span><span class="sl-cart-subtotal-val">$0.00</span></div>
+    <div class="sl-cart-subtotal"><span>Subtotal</span><span class="sl-cart-subtotal-val">D0.00</span></div>
     <div class="sl-cart-total">
       <span class="lbl">Total</span>
-      <span class="prc sl-cart-total-val">$0.00</span>
+      <span class="prc sl-cart-total-val">D0.00</span>
     </div>
     <button class="sl-btn-checkout" onclick="slToast('Checkout coming soon!')">CHECKOUT</button>
     <button class="sl-btn-continue sl-close-cart">CONTINUE SHOPPING</button>
@@ -825,7 +825,7 @@ const slCart = {
           <div class="sl-cart-item-info">
             <div class="sl-cart-item-name">${item.name}</div>
             <div class="sl-cart-item-size">${item.size}</div>
-            <div class="sl-cart-item-price">$${(item.price * item.qty).toFixed(2)}</div>
+            <div class="sl-cart-item-price">D${(item.price * item.qty).toFixed(2)}</div>
             <div class="sl-cart-qty">
               <button class="sl-qty-btn" onclick="slCart.updateQty('${item.id}','${item.size}',${item.qty-1})">−</button>
               <span class="sl-qty-val">${item.qty}</span>
@@ -841,8 +841,8 @@ const slCart = {
     const t = this.total();
     const sub = document.querySelector('.sl-cart-subtotal-val');
     const tot = document.querySelector('.sl-cart-total-val');
-    if (sub) sub.textContent = '$' + t.toFixed(2);
-    if (tot) tot.textContent = '$' + t.toFixed(2);
+    if (sub) sub.textContent = 'D' + t.toFixed(2);
+    if (tot) tot.textContent = 'D' + t.toFixed(2);
   }
 };
 

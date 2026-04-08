@@ -160,16 +160,16 @@
         <div class="filter-group">
           <div class="filter-title">Price Range</div>
           <label class="filter-option">
-            <input type="checkbox"> <label>Under $100</label>
+            <input type="checkbox"> <label>Under D100</label>
           </label>
           <label class="filter-option">
-            <input type="checkbox"> <label>$100 – $150</label>
+            <input type="checkbox"> <label>D100 – D150</label>
           </label>
           <label class="filter-option">
-            <input type="checkbox"> <label>$150 – $200</label>
+            <input type="checkbox"> <label>D150 – D200</label>
           </label>
           <label class="filter-option">
-            <input type="checkbox"> <label>Over $200</label>
+            <input type="checkbox"> <label>Over D200</label>
           </label>
         </div>
       </aside>
@@ -190,205 +190,235 @@
         <div class="grid-3" id="product-grid" data-scroll="stagger">
 
           <!-- Product 1 -->
-          <div class="product-card" data-category="floral">
+          <div class="product-card" data-category="fresh">
             <div class="product-image-wrap">
-              <div class="product-img-placeholder">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
-                <span>Rose Aura</span>
-              </div>
+              <img src="IMG_20260408_075935_226.jpg" alt="Acqua di Gio bottle">
               <span class="product-tag new">New</span>
-              <button class="product-wishlist" data-wishlist="rose-aura">
+              <button class="product-wishlist" data-wishlist="acqua-di-gio">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
               </button>
               <div class="product-actions">
-                <button class="btn btn-primary" onclick="cart.add({id:'rose-aura',name:'Rose Aura',price:148,size:'50ml'})">Add to Cart</button>
+                <button class="btn btn-primary" onclick="cart.add({id:'acqua-di-gio',name:'Acqua di Gio',price:148,size:'100ml'})">Add to Cart</button>
               </div>
             </div>
             <div class="product-info">
-              <div class="product-category">Floral</div>
-              <a href="product.html" class="product-name">Rose Aura</a>
-              <div class="product-notes">Rose · Jasmine · White Musk</div>
-              <div class="product-price-row"><span class="product-price">$148</span></div>
+              <div class="product-category">Fresh</div>
+              <a href="product.html" class="product-name">Acqua di Gio</a>
+              <div class="product-notes">Citrus · Marine · Aromatic</div>
+              <div class="product-price-row"><span class="product-price">D148</span></div>
             </div>
           </div>
 
           <!-- Product 2 -->
           <div class="product-card" data-category="woody">
             <div class="product-image-wrap">
-              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #F5EDE8 0%, #C4956A 100%);">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
-                <span>Velvet Oud</span>
-              </div>
+              <img src="IMG_20260408_080027_582.jpg" alt="Afnan 9PM bottle">
               <span class="product-tag limited">Limited</span>
-              <button class="product-wishlist" data-wishlist="velvet-oud">
+              <button class="product-wishlist" data-wishlist="afnan-9pm">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
               </button>
               <div class="product-actions">
-                <button class="btn btn-primary" onclick="cart.add({id:'velvet-oud',name:'Velvet Oud',price:195,size:'50ml'})">Add to Cart</button>
+                <button class="btn btn-primary" onclick="cart.add({id:'afnan-9pm',name:'9PM',price:132,size:'100ml'})">Add to Cart</button>
               </div>
             </div>
             <div class="product-info">
               <div class="product-category">Woody Oriental</div>
-              <a href="product.html" class="product-name">Velvet Oud</a>
-              <div class="product-notes">Oud · Amber · Sandalwood</div>
-              <div class="product-price-row"><span class="product-price">$195</span></div>
+              <a href="product.html" class="product-name">9PM</a>
+              <div class="product-notes">Afnan · Eau de Parfum</div>
+              <div class="product-price-row"><span class="product-price">D132</span></div>
             </div>
           </div>
 
           <!-- Product 3 -->
-          <div class="product-card" data-category="fresh">
-            <div class="product-image-wrap">
-              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #EAF5F5 0%, #6AAFB8 100%);">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
-                <span>Aqua Silk</span>
-              </div>
-              <button class="product-wishlist" data-wishlist="aqua-silk">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-              </button>
-              <div class="product-actions">
-                <button class="btn btn-primary" onclick="cart.add({id:'aqua-silk',name:'Aqua Silk',price:125,size:'50ml'})">Add to Cart</button>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-category">Fresh Aquatic</div>
-              <a href="product.html" class="product-name">Aqua Silk</a>
-              <div class="product-notes">Sea Breeze · Bergamot · Cedarwood</div>
-              <div class="product-price-row"><span class="product-price">$125</span></div>
-            </div>
-          </div>
-
-          <!-- Product 4 -->
-          <div class="product-card" data-category="floral">
-            <div class="product-image-wrap">
-              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #F9F0F8 0%, #A87BBF 100%);">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
-                <span>Iris Noir</span>
-              </div>
-              <span class="product-tag sale">Sale</span>
-              <button class="product-wishlist" data-wishlist="iris-noir">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-              </button>
-              <div class="product-actions">
-                <button class="btn btn-primary" onclick="cart.add({id:'iris-noir',name:'Iris Noir',price:110,size:'50ml'})">Add to Cart</button>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-category">Floral Gourmand</div>
-              <a href="product.html" class="product-name">Iris Noir</a>
-              <div class="product-notes">Iris · Tonka Bean · Vanilla</div>
-              <div class="product-price-row"><span class="product-price">$110</span><span class="product-price-old">$138</span></div>
-            </div>
-          </div>
-
-          <!-- Product 5 -->
-          <div class="product-card" data-category="citrus">
-            <div class="product-image-wrap">
-              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #FEFAE8 0%, #D4A930 100%);">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
-                <span>Citrus Bloom</span>
-              </div>
-              <span class="product-tag new">New</span>
-              <button class="product-wishlist" data-wishlist="citrus-bloom">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-              </button>
-              <div class="product-actions">
-                <button class="btn btn-primary" onclick="cart.add({id:'citrus-bloom',name:'Citrus Bloom',price:98,size:'50ml'})">Add to Cart</button>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-category">Citrus Fresh</div>
-              <a href="product.html" class="product-name">Citrus Bloom</a>
-              <div class="product-notes">Sicilian Lemon · Neroli · Vetiver</div>
-              <div class="product-price-row"><span class="product-price">$98</span></div>
-            </div>
-          </div>
-
-          <!-- Product 6 -->
-          <div class="product-card" data-category="musk">
-            <div class="product-image-wrap">
-              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #F8F5F0 0%, #9E8870 100%);">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
-                <span>Nude Musk</span>
-              </div>
-              <button class="product-wishlist" data-wishlist="nude-musk">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-              </button>
-              <div class="product-actions">
-                <button class="btn btn-primary" onclick="cart.add({id:'nude-musk',name:'Nude Musk',price:115,size:'50ml'})">Add to Cart</button>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-category">Musk & Powdery</div>
-              <a href="product.html" class="product-name">Nude Musk</a>
-              <div class="product-notes">White Musk · Cashmere · Sandalwood</div>
-              <div class="product-price-row"><span class="product-price">$115</span></div>
-            </div>
-          </div>
-
-          <!-- Product 7 -->
-          <div class="product-card" data-category="woody">
-            <div class="product-image-wrap">
-              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #EDF5EE 0%, #4A8B5C 100%);">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
-                <span>Cedre Noir</span>
-              </div>
-              <button class="product-wishlist" data-wishlist="cedre-noir">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-              </button>
-              <div class="product-actions">
-                <button class="btn btn-primary" onclick="cart.add({id:'cedre-noir',name:'Cèdre Noir',price:165,size:'50ml'})">Add to Cart</button>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-category">Woody</div>
-              <a href="product.html" class="product-name">Cèdre Noir</a>
-              <div class="product-notes">Cedarwood · Vetiver · Dark Amber</div>
-              <div class="product-price-row"><span class="product-price">$165</span></div>
-            </div>
-          </div>
-
-          <!-- Product 8 -->
-          <div class="product-card" data-category="floral">
-            <div class="product-image-wrap">
-              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #FFF8F0 0%, #E89B70 100%);">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
-                <span>Soleil d'Or</span>
-              </div>
-              <span class="product-tag new">New</span>
-              <button class="product-wishlist" data-wishlist="soleil-dor">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-              </button>
-              <div class="product-actions">
-                <button class="btn btn-primary" onclick="cart.add({id:'soleil-dor',name:'Soleil d\'Or',price:175,size:'50ml'})">Add to Cart</button>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-category">Floral Oriental</div>
-              <a href="product.html" class="product-name">Soleil d'Or</a>
-              <div class="product-notes">Ylang-Ylang · Tuberose · Benzoin</div>
-              <div class="product-price-row"><span class="product-price">$175</span></div>
-            </div>
-          </div>
-
-          <!-- Product 9 -->
           <div class="product-card" data-category="gourmand">
             <div class="product-image-wrap">
-              <div class="product-img-placeholder" style="background: linear-gradient(160deg, #F5EEF8 0%, #8E5AA0 100%);">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M9 3h6l1 3H8L9 3zM7.5 6C6 7.5 5 9.5 5 12c0 5 3 9 7 9s7-4 7-9c0-2.5-1-4.5-2.5-6"/><circle cx="12" cy="12" r="2"/></svg>
-                <span>Noir Gourmand</span>
-              </div>
-              <button class="product-wishlist" data-wishlist="noir-gourmand">
+              <img src="IMG_20260408_080031_477.jpg" alt="Kayali Lovefest Burning Cherry 48 bottle">
+              <button class="product-wishlist" data-wishlist="kayali-lovefest-burning-cherry-48">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
               </button>
               <div class="product-actions">
-                <button class="btn btn-primary" onclick="cart.add({id:'noir-gourmand',name:'Noir Gourmand',price:132,size:'50ml'})">Add to Cart</button>
+                <button class="btn btn-primary" onclick="cart.add({id:'kayali-lovefest-burning-cherry-48',name:'Kayali Lovefest Burning Cherry 48',price:165,size:'100ml'})">Add to Cart</button>
               </div>
             </div>
             <div class="product-info">
               <div class="product-category">Gourmand</div>
-              <a href="product.html" class="product-name">Noir Gourmand</a>
-              <div class="product-notes">Dark Chocolate · Praline · Patchouli</div>
-              <div class="product-price-row"><span class="product-price">$132</span></div>
+              <a href="product.html" class="product-name">Kayali Lovefest Burning Cherry 48</a>
+              <div class="product-notes">Cherry · Praline · Vanilla</div>
+              <div class="product-price-row"><span class="product-price">D165</span></div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="product-card" data-category="gourmand">
+            <div class="product-image-wrap">
+              <img src="IMG_20260408_080032_920.jpg" alt="Kayali Vanilla 28 bottle">
+              <span class="product-tag sale">Sale</span>
+              <button class="product-wishlist" data-wishlist="kayali-vanilla-28">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'kayali-vanilla-28',name:'Kayali Vanilla 28',price:154,size:'100ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Gourmand</div>
+              <a href="product.html" class="product-name">Kayali Vanilla 28</a>
+              <div class="product-notes">Vanilla · Brown Sugar · Amber</div>
+              <div class="product-price-row"><span class="product-price">D154</span><span class="product-price-old">D175</span></div>
+            </div>
+          </div>
+
+          <!-- Product 5 -->
+          <div class="product-card" data-category="floral">
+            <div class="product-image-wrap">
+              <img src="IMG_20260408_080039_844.jpg" alt="Kayali Elixir 11 bottle">
+              <span class="product-tag new">New</span>
+              <button class="product-wishlist" data-wishlist="kayali-elixir-11">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'kayali-elixir-11',name:'Kayali Elixir 11',price:170,size:'100ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Floral</div>
+              <a href="product.html" class="product-name">Kayali Elixir 11</a>
+              <div class="product-notes">Rose de Mai · Jasmine · Vanilla</div>
+              <div class="product-price-row"><span class="product-price">D170</span></div>
+            </div>
+          </div>
+
+          <!-- Product 6 -->
+          <div class="product-card" data-category="woody">
+            <div class="product-image-wrap">
+              <img src="IMG_20260408_080043_745.jpg" alt="Valentino Uomo Born in Roma Intense bottle">
+              <button class="product-wishlist" data-wishlist="valentino-uomo-born-in-roma-intense">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'valentino-uomo-born-in-roma-intense',name:'Valentino Uomo Born in Roma Intense',price:190,size:'50ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Woody</div>
+              <a href="product.html" class="product-name">Valentino Uomo Born in Roma Intense</a>
+              <div class="product-notes">Valentino Uomo · Intense</div>
+              <div class="product-price-row"><span class="product-price">D190</span></div>
+            </div>
+          </div>
+
+          <!-- Product 7 -->
+          <div class="product-card" data-category="fresh">
+            <div class="product-image-wrap">
+              <img src="IMG_20260408_080045_930.jpg" alt="Versace Eros Eau de Toilette bottle">
+              <button class="product-wishlist" data-wishlist="versace-eros">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'versace-eros',name:'Versace Eros',price:178,size:'100ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Fresh</div>
+              <a href="product.html" class="product-name">Versace Eros</a>
+              <div class="product-notes">Eau de Toilette</div>
+              <div class="product-price-row"><span class="product-price">D178</span></div>
+            </div>
+          </div>
+
+          <!-- Product 8 -->
+          <div class="product-card" data-category="gourmand">
+            <div class="product-image-wrap">
+              <img src="IMG_20260408_080046_987.jpg" alt="Khamrah Dukhan by Lattafa bottle">
+              <span class="product-tag new">New</span>
+              <button class="product-wishlist" data-wishlist="khamrah-dukhan">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'khamrah-dukhan',name:'Khamrah Dukhan',price:126,size:'100ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Gourmand</div>
+              <a href="product.html" class="product-name">Khamrah Dukhan</a>
+              <div class="product-notes">Lattafa · Warm Spiced Sweet</div>
+              <div class="product-price-row"><span class="product-price">D126</span></div>
+            </div>
+          </div>
+
+          <!-- Product 9 -->
+          <div class="product-card" data-category="floral">
+            <div class="product-image-wrap">
+              <img src="IMG_20260408_080116_256.jpg" alt="Kayali Deja Vu White Flower 57 bottle">
+              <button class="product-wishlist" data-wishlist="kayali-deja-vu-white-flower-57">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'kayali-deja-vu-white-flower-57',name:'Kayali Deja Vu White Flower 57',price:162,size:'100ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Floral</div>
+              <a href="product.html" class="product-name">Kayali Deja Vu White Flower 57</a>
+              <div class="product-notes">White Floral · Creamy Amber</div>
+              <div class="product-price-row"><span class="product-price">D162</span></div>
+            </div>
+          </div>
+
+          <!-- Product 10 -->
+          <div class="product-card" data-category="musk">
+            <div class="product-image-wrap">
+              <img src="IMG_20260408_080120_011.jpg" alt="Victoria's Secret Very Sexy Night bottle">
+              <button class="product-wishlist" data-wishlist="victorias-secret-very-sexy-night">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'victorias-secret-very-sexy-night',name:'Victoria\'s Secret Very Sexy Night',price:140,size:'100ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Musk & Powdery</div>
+              <a href="product.html" class="product-name">Victoria's Secret Very Sexy Night</a>
+              <div class="product-notes">Eau de Parfum</div>
+              <div class="product-price-row"><span class="product-price">D140</span></div>
+            </div>
+          </div>
+
+          <!-- Product 11 -->
+          <div class="product-card" data-category="floral">
+            <div class="product-image-wrap">
+              <img src="IMG_20260408_080124_893.jpg" alt="Victoria's Secret Bombshell bottle">
+              <button class="product-wishlist" data-wishlist="victorias-secret-bombshell">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'victorias-secret-bombshell',name:'Victoria\'s Secret Bombshell',price:150,size:'100ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Floral</div>
+              <a href="product.html" class="product-name">Victoria's Secret Bombshell</a>
+              <div class="product-notes">Eau de Parfum</div>
+              <div class="product-price-row"><span class="product-price">D150</span></div>
+            </div>
+          </div>
+
+          <!-- Product 12 -->
+          <div class="product-card" data-category="woody">
+            <div class="product-image-wrap">
+              <img src="IMG_20260408_080330_873.jpg" alt="Valentino Uomo bottle">
+              <button class="product-wishlist" data-wishlist="valentino-uomo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="cart.add({id:'valentino-uomo',name:'Valentino Uomo',price:184,size:'100ml'})">Add to Cart</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-category">Woody</div>
+              <a href="product.html" class="product-name">Valentino Uomo</a>
+              <div class="product-notes">Born in Roma</div>
+              <div class="product-price-row"><span class="product-price">D184</span></div>
             </div>
           </div>
 
@@ -415,8 +445,8 @@
   </div>
   <div class="cart-body"></div>
   <div class="cart-footer">
-    <div class="cart-subtotal"><span>Subtotal</span><span class="price-text">$0.00</span></div>
-    <div class="cart-total"><span class="label-text">Total</span><span class="price-text">$0.00</span></div>
+    <div class="cart-subtotal"><span>Subtotal</span><span class="price-text">D0.00</span></div>
+    <div class="cart-total"><span class="label-text">Total</span><span class="price-text">D0.00</span></div>
     <a href="#" class="btn btn-primary" style="width: 100%; justify-content: center; margin-bottom: 10px;" onclick="showToast('Checkout coming soon!')">Checkout</a>
     <button class="btn btn-outline" style="width: 100%; justify-content: center;" onclick="document.querySelector('.cart-overlay').classList.remove('open'); document.querySelector('.cart-drawer').classList.remove('open'); document.body.style.overflow='';">Continue Shopping</button>
   </div>

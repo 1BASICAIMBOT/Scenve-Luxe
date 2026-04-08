@@ -188,7 +188,7 @@ function updateCartDrawer() {
         <div class="cart-item-info">
           <div class="cart-item-name">${item.name}</div>
           <div class="cart-item-variant">${item.size || '50ml'}</div>
-          <div class="cart-item-price">$${(item.price * item.qty).toFixed(2)}</div>
+          <div class="cart-item-price">D${(item.price * item.qty).toFixed(2)}</div>
           <div class="cart-item-qty">
             <button class="cart-qty-btn" onclick="cart.updateQty('${item.id}','${item.size}',${item.qty - 1})">−</button>
             <span class="cart-qty-val">${item.qty}</span>
@@ -205,8 +205,8 @@ function updateCartDrawer() {
   }
 
   const total = cart.total();
-  if (cartTotalEl) cartTotalEl.textContent = `$${total.toFixed(2)}`;
-  if (cartSubtotalEl) cartSubtotalEl.textContent = `$${total.toFixed(2)}`;
+  if (cartTotalEl) cartTotalEl.textContent = `D${total.toFixed(2)}`;
+  if (cartSubtotalEl) cartSubtotalEl.textContent = `D${total.toFixed(2)}`;
 }
 
 /* ── Toast Notification ── */
